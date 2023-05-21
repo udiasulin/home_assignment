@@ -25,7 +25,7 @@ export const fetchImageCollection = (category, currentPage) => {
         } catch (error) {
             dispatch(
                 ImageActions.getError({
-                    status: 'error'
+                    status: false
                 })
             );
         }
